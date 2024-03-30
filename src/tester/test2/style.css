@@ -1,0 +1,28 @@
+.line {
+    width: 100%;
+    margin-top: 50px;
+    height: 30px; /* Adjust thickness as needed */
+   
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background-color: red; /* Final color */
+    animation: moveLine 2s linear forwards;
+  }
+  
+  @keyframes moveLine {
+    0% {
+      left: -50%;
+    }
+    100% {
+      left: 0%;
+    }
+  }

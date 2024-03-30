@@ -1,0 +1,26 @@
+
+.rotating-element {
+    /* Set the element's position */
+    position: relative;
+}
+
+.rotating-element::before {
+    /* Create a pseudo-element */
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Cover the entire parent element */
+    height: 100%;
+    transform-origin: center center; /* Set the rotation origin to the center */
+    animation: rotateAnimation 3s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg); /* Start rotation from 0 degrees */
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg); /* Rotate to 360 degrees for one complete rotation */
+    }
+}
