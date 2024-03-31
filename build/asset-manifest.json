@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.075cf581.css",
-    "main.js": "/static/js/main.7f1d9fbd.js",
-    "static/media/award2.png": "/static/media/award2.d401ae0cafe1a73f8abc.png",
-    "static/media/services5.png": "/static/media/services5.0889cbd4e3bc7154e4f3.png",
-    "static/media/services1.png": "/static/media/services1.1ff851b66f725ab20198.png",
-    "static/media/services2.png": "/static/media/services2.35d73af3c8e0a5f9b06e.png",
-    "static/media/award1.png": "/static/media/award1.58657184d94787a9f467.png",
-    "static/media/react.png": "/static/media/react.a52d90672208d6dacb75.png",
-    "static/media/award3.png": "/static/media/award3.b992113d22bd0ee5c456.png",
-    "static/media/Intro1.jpeg": "/static/media/Intro1.504aa71707fc3653fde8.jpeg",
-    "static/media/node.png": "/static/media/node.abfaef34ea49d0c7cd3c.png",
-    "static/media/bg1.png": "/static/media/bg1.d007f34ff5ea636894f9.png",
-    "static/media/HtmlCSS.webp": "/static/media/HtmlCSS.4d97eb7ff48cf5a63bf1.webp",
-    "index.html": "/index.html",
-    "main.075cf581.css.map": "/static/css/main.075cf581.css.map",
-    "main.7f1d9fbd.js.map": "/static/js/main.7f1d9fbd.js.map"
+    "main.css": "/danial-portfolio/static/css/main.075cf581.css",
+    "main.js": "/danial-portfolio/static/js/main.fd819b66.js",
+    "static/media/award2.png": "/danial-portfolio/static/media/award2.d401ae0cafe1a73f8abc.png",
+    "static/media/services5.png": "/danial-portfolio/static/media/services5.0889cbd4e3bc7154e4f3.png",
+    "static/media/services1.png": "/danial-portfolio/static/media/services1.1ff851b66f725ab20198.png",
+    "static/media/services2.png": "/danial-portfolio/static/media/services2.35d73af3c8e0a5f9b06e.png",
+    "static/media/award1.png": "/danial-portfolio/static/media/award1.58657184d94787a9f467.png",
+    "static/media/react.png": "/danial-portfolio/static/media/react.a52d90672208d6dacb75.png",
+    "static/media/award3.png": "/danial-portfolio/static/media/award3.b992113d22bd0ee5c456.png",
+    "static/media/Intro1.jpeg": "/danial-portfolio/static/media/Intro1.504aa71707fc3653fde8.jpeg",
+    "static/media/node.png": "/danial-portfolio/static/media/node.abfaef34ea49d0c7cd3c.png",
+    "static/media/bg1.png": "/danial-portfolio/static/media/bg1.d007f34ff5ea636894f9.png",
+    "static/media/HtmlCSS.webp": "/danial-portfolio/static/media/HtmlCSS.4d97eb7ff48cf5a63bf1.webp",
+    "index.html": "/danial-portfolio/index.html",
+    "main.075cf581.css.map": "/danial-portfolio/static/css/main.075cf581.css.map",
+    "main.fd819b66.js.map": "/danial-portfolio/static/js/main.fd819b66.js.map"
   },
   "entrypoints": [
     "static/css/main.075cf581.css",
-    "static/js/main.7f1d9fbd.js"
+    "static/js/main.fd819b66.js"
   ]
 }

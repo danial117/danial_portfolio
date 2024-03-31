@@ -1,6 +1,9 @@
 
+import { useMediaQuery } from "@material-ui/core";
+
  const Spaceship = () => {
 
+  const isMobile = useMediaQuery('(max-width:425px)');
    
 
 
@@ -16,8 +19,8 @@
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 400 400"
-        width="200"  // Set the width to 200 (or any desired value)
-        height="200" // Set the height to 200 (or any desired value)
+        width={!isMobile ?200:150}  // Set the width to 200 (or any desired value)
+        height={!isMobile ?200:150} // Set the height to 200 (or any desired value)
         shapeRendering="geometricPrecision"
         textRendering="geometricPrecision"
       >

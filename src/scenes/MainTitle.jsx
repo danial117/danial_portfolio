@@ -99,6 +99,7 @@ const MainTitle=()=>{
         <div className='w-full max-h-[100vh] min-h-[80vh]'>
 
         <motion.div 
+        className='sm:max-[425px]:mt-8'
         initial={{position: 'absolute', top: '0%', left: '-10%',}}
         style={{zIndex:'20',overflow:'hidden'}}
         animate={{
@@ -159,12 +160,12 @@ const MainTitle=()=>{
 
    
 
-                <p className="text-[3rem] sm:max-md:text-[1.5rem] font-Poppins z-10 relative">Full Stack Developer</p>
+                <p className="text-[3rem] sm:max-[425px]:text-[1.2rem] sm:max-md:text-[1.5rem] font-Poppins z-10 relative">Full Stack Developer</p>
                 <motion.div  style={{position:'absolute', width:'250px',height:'250px', left:'10%', top:'60%',zIndex:5}}  >
             <Square />
             </motion.div>
 
-            <div className='absolute z-200 w-[90%] -top-[175%] lg:max-xl:-top-[160%] right-[40%]'>
+            <div className='absolute z-20 w-[90%] -top-[175%] lg:max-xl:-top-[160%] right-[40%]'>
 <Circle />
 </div>
 

@@ -119,7 +119,7 @@ const IntroDetails=forwardRef(({scrollToContacts},ref)=>{
 
     return(
   
-        <div className='w-[45%] sm:max-md:w-[80%] md:max-lg:w-[65%] flex flex-row h-[3px] mt-2 mx-auto bg-gray-300'>
+        <div className='w-[45%] sm:max-md:w-[80%] md:max-lg:w-[65%] sm:max-[425px]:w-[100%] flex flex-row h-[3px] mt-2 mx-auto bg-gray-300'>
             <div className={`basis-[20%] mr-4 ${intro==='Intro' && 'bg-black '}`}  ></div>
             <div className={`basis-[20%] ${intro==='Skills' && 'bg-black '} `} ></div>
             <div className={`basis-[30%] ${intro==='Experiance' && 'bg-black '} `}></div>
@@ -216,12 +216,12 @@ const IntroDetails=forwardRef(({scrollToContacts},ref)=>{
 
     return(
         <>
-        <div ref={ref} className="w-full   relative z-700 max-h-[100vh] min-h-[80vh]">
-                 <div className="flex w-[40%] sm:max-md:w-[70%]  md:max-lg:w-[60%]   mx-auto justify-between flex-row">
-                    <p  onClick={()=>{setIntro('Intro')}} className={`  text-gray-600 sm:max-md:text-sm sm:max-md:ml-2 hover:text-black-400 cursor-pointer  text-lg font-Lexend font-bold  ${intro==='Intro' && 'text-black'}`}>Intro</p>
-                    <p  onClick={()=>{setIntro('Skills'); }} className={`text-gray-600 sm:max-md:text-sm sm:max-md:ml-2 hover:text-black-400 cursor-pointer text-lg font-Lexend font-bold ${intro==='Skills' && 'text-black'}`}>Skills</p>
-                    <p  onClick={()=>{setIntro('Experiance')}} className={`text-gray-600 sm:max-md:text-sm sm:max-md:ml-2 hover:text-black-400 cursor-pointer text-lg font-Lexend font-bold  ${intro==='Experiance' && 'text-black'}`}>Experiance</p>
-                    <p onClick={()=>{setIntro('Education')}}  className={`text-gray-600 sm:max-md:text-sm sm:max-md:ml-2 hover:text-black-400  cursor-pointer  text-lg font-Lexend font-bold  ${intro==='Education' && 'text-black'}`}>Education</p>
+        <div ref={ref} className="w-full   relative z-50 max-h-[100vh] min-h-[80vh]">
+                 <div className="flex w-[40%] sm:max-md:w-[70%] sm:max-[425px]:w-[95%]  md:max-lg:w-[60%]   mx-auto justify-between flex-row">
+                    <p  onClick={()=>{setIntro('Intro')}} className={`  text-gray-600 sm:max-[425px]:text-center sm:max-md:text-sm sm:max-md:ml-2 hover:text-black-400 cursor-pointer  text-lg font-Lexend font-bold  ${intro==='Intro' && 'text-black'}`}>Intro</p>
+                    <p  onClick={()=>{setIntro('Skills'); }} className={`text-gray-600 sm:max-[425px]:text-center sm:max-md:text-sm sm:max-md:ml-2 hover:text-black-400 cursor-pointer text-lg font-Lexend font-bold ${intro==='Skills' && 'text-black'}`}>Skills</p>
+                    <p  onClick={()=>{setIntro('Experiance')}} className={`text-gray-600 sm:max-[425px]:text-center sm:max-md:text-sm sm:max-md:ml-2 hover:text-black-400 cursor-pointer text-lg font-Lexend font-bold  ${intro==='Experiance' && 'text-black'}`}>Experiance</p>
+                    <p onClick={()=>{setIntro('Education')}}  className={`text-gray-600 sm:max-[425px]:text-center sm:max-md:text-sm sm:max-md:ml-2 hover:text-black-400  cursor-pointer  text-lg font-Lexend font-bold  ${intro==='Education' && 'text-black'}`}>Education</p>
 
                  </div>
 
@@ -240,7 +240,7 @@ const IntroDetails=forwardRef(({scrollToContacts},ref)=>{
 
                  </motion.div>
 
-                 <div className="w-[90%] sm:max-[425px]:mb-16 sm:max-[425px]:mx-auto sm:max-[425px]:w-[70%]">
+                 <div className="w-[90%] sm:max-[425px]:mb-34 sm:max-[425px]:mx-auto sm:max-[425px]:w-[70%]">
                     <motion.p initial={{y:-100,opacity:0}} whileInView={{y:0,opacity:1,transition:{duration:0.3}}} className="font-Abel mb-8 text-xl sm:max-md:text-lg font-bold my-2 mt-8 text-gray-700">Hi, I am UI/UX Designer</motion.p>
                     <motion.p initial={{y:100,opacity:0}} whileInView={{y:0,opacity:1,transition:{duration:0.3}}} className="font-Livvic text-lg mb-2 sm:max-md:text-xs  text-gray-600">I am also a node Js developer with  a backend development. As a Node.js developer, you play a crucial role in building scalable and efficient server-side applications. Your expertise in JavaScript and backend development enables you to create robust solutions that meet the requirements of modern web applications. </motion.p>
                     <div className=''>
@@ -293,18 +293,18 @@ const IntroDetails=forwardRef(({scrollToContacts},ref)=>{
 
                     <motion.div variants={EducationVarient} initial='initial' animate='animate' className='ml-[20%] relative  mt-2 '>
 
-                        <motion.div variants={EducationVarientChildren} className='absolute left-[5%] top-[5%] sm:max-md:w-[60px] sm:max-md:h-[60px] w-[80px] h-[80px]  bg-no-repeat bg-cover bg-center ' style={{backgroundImage: `linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.4)), url(${require('../assets/HtmlCSS.webp')})`}} >
+                        <motion.div variants={EducationVarientChildren} className='absolute left-[5%] top-[5%] sm:max-[425px]:left-[-8%]  sm:max-md:w-[60px] sm:max-md:h-[60px] w-[80px] h-[80px]   bg-no-repeat bg-cover bg-center ' style={{backgroundImage: `linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.4)), url(${require('../assets/HtmlCSS.webp')})`}} >
                             
                             </motion.div> 
 
-                            <motion.div variants={EducationVarientChildren} className='absolute md:max-[864px]:left-[71%]  sm:max-md:left-[75%] sm:max-md:bottom-[63%] lg:max-xl:left-[70%] left-[60%] bottom-[65%]'>
+                            <motion.div variants={EducationVarientChildren} className='absolute md:max-[864px]:left-[71%] sm:max-[425px]:left-[77%] sm:max-[425px]:top-[20%] sm:max-md:left-[75%] sm:max-md:bottom-[63%] lg:max-xl:left-[70%] left-[60%] bottom-[65%]'>
                         <p className='font-Poppins sm:max-md:text-sm sm:max-[425px]:text-[12px] text-lg '>Html CSS</p>
-                        <p className='font-Livvic sm:max-md:text-[8px] text-xs '>I am very experianced with the basics of web development</p>
+                        <p className='font-Livvic sm:max-md:text-[8px] text-xs sm:max-[425px]:hidden'>I am very experianced with the basics of web development</p>
                     </motion.div>
 
-                            <motion.div variants={EducationVarientChildren}  className='absolute w-[30%]  sm:max-md:left-[-10%] left-[-14%] top-[35%]' >
+                            <motion.div variants={EducationVarientChildren}  className='absolute w-[30%] sm:max-[425px]:left-[-17%]  sm:max-md:left-[-10%] left-[-14%] top-[35%]' >
                             <motion.p className='font-Poppins sm:max-md:text-sm text-lg sm:max-[425px]:text-[12px] text-right'>Node JS</motion.p>
-                        <motion.p className='font-Livvic sm:max-md:text-[8px] text-xs '>I am very experianced with the backend development.</motion.p>
+                        <motion.p className='font-Livvic sm:max-md:text-[8px] text-xs sm:max-[425px]:hidden'>I am very experianced with the backend development.</motion.p>
                             
                             </motion.div> 
 
@@ -314,14 +314,14 @@ const IntroDetails=forwardRef(({scrollToContacts},ref)=>{
                     </motion.div>
 
                              
-                    <motion.div variants={EducationVarientChildren} className='absolute left-[0%] top-[55%] w-[100px] h-[70px]  bg-no-repeat sm:max-md:w-[70px] sm:max-md:h-[60px] bg-cover bg-center ' style={{backgroundImage: `linear-gradient(to right,rgba(0,0,0,0), rgba(0,0,0,0)), url(${require('../assets/react.png')})`}} >
+                    <motion.div variants={EducationVarientChildren} className='absolute left-[0%] top-[55%] w-[100px] h-[70px]  bg-no-repeat sm:max-md:w-[70px] sm:max-md:h-[60px] sm:max-[425px]:left-[-13%] bg-cover bg-center ' style={{backgroundImage: `linear-gradient(to right,rgba(0,0,0,0), rgba(0,0,0,0)), url(${require('../assets/react.png')})`}} >
                             
                             </motion.div> 
 
                       
-                    <motion.div variants={EducationVarientChildren} className='absolute left-[60%] sm:max-md:left-[75%] sm:max-md:bottom-[2%]  md:max-[864px]:left-[71%]  lg:max-xl:left-[70%]  bottom-[5%]'>
+                    <motion.div variants={EducationVarientChildren} className='absolute  sm:max-[425px]:bottom-[12%] left-[60%] sm:max-md:left-[75%] sm:max-md:bottom-[2%]  md:max-[864px]:left-[71%]  lg:max-xl:left-[70%]  bottom-[5%]'>
                         <p className='font-Poppins sm:max-md:text-sm text-lg sm:max-[425px]:text-[12px]'>React JS</p>
-                        <p className='font-Livvic sm:max-md:text-[8px] text-xs '>I can create a powerful application through react.</p>
+                        <p className='font-Livvic sm:max-md:text-[8px] text-xs sm:max-[425px]:hidden'>I can create a powerful application through react.</p>
                     </motion.div>
            
                          
@@ -329,9 +329,9 @@ const IntroDetails=forwardRef(({scrollToContacts},ref)=>{
                  
 
 
-                            <motion.div variants={EducationVarientChildren} className='absolute w-[40%] sm:max-md:left-[-21%]   left-[-24%] top-[78%]' >
+                            <motion.div variants={EducationVarientChildren} className='absolute sm:max-[425px]:left-[-32%] w-[40%] sm:max-md:left-[-21%]   left-[-24%] top-[78%]' >
                             <p className='font-Poppins sm:max-[425px]:text-[12px] sm:max-md:text-sm text-lg text-right'>2019-2024</p>
-                        <p className='font-Livvic sm:max-[425px]:ml-8  sm:max-md:text-[8px] text-xs '>Many years of experiance.</p>
+                        <p className='font-Livvic sm:max-[425px]:hidden   sm:max-md:text-[8px] text-xs '>Many years of experiance.</p>
                             
                             </motion.div> 
 
@@ -347,8 +347,9 @@ const IntroDetails=forwardRef(({scrollToContacts},ref)=>{
 
                     
            
-
+         <div className='sm:max-[425px]:left-[-17%] relative'>
                     <LineMorph />
+                    </div>
 
 
 
