@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/danial-portfolio/static/css/main.075cf581.css",
-    "main.js": "/danial-portfolio/static/js/main.fd819b66.js",
+    "main.css": "/danial-portfolio/static/css/main.90e36b8b.css",
+    "main.js": "/danial-portfolio/static/js/main.d08f71b9.js",
     "static/media/award2.png": "/danial-portfolio/static/media/award2.d401ae0cafe1a73f8abc.png",
     "static/media/services5.png": "/danial-portfolio/static/media/services5.0889cbd4e3bc7154e4f3.png",
     "static/media/services1.png": "/danial-portfolio/static/media/services1.1ff851b66f725ab20198.png",
@@ -14,11 +14,11 @@
     "static/media/bg1.png": "/danial-portfolio/static/media/bg1.d007f34ff5ea636894f9.png",
     "static/media/HtmlCSS.webp": "/danial-portfolio/static/media/HtmlCSS.4d97eb7ff48cf5a63bf1.webp",
     "index.html": "/danial-portfolio/index.html",
-    "main.075cf581.css.map": "/danial-portfolio/static/css/main.075cf581.css.map",
-    "main.fd819b66.js.map": "/danial-portfolio/static/js/main.fd819b66.js.map"
+    "main.90e36b8b.css.map": "/danial-portfolio/static/css/main.90e36b8b.css.map",
+    "main.d08f71b9.js.map": "/danial-portfolio/static/js/main.d08f71b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.075cf581.css",
-    "static/js/main.fd819b66.js"
+    "static/css/main.90e36b8b.css",
+    "static/js/main.d08f71b9.js"
   ]
 }
