@@ -57,7 +57,7 @@ const IntroDetails=forwardRef(({scrollToContacts},ref)=>{
     const onButtonClick = () => {
      
         // using Java Script method to get PDF file
-        fetch("/assets/Danial_CV.pdf").then((response) => {
+        fetch("https://danial117.github.io/danial-portfolio/assets/Danial_CV.pdf").then((response) => {
             console.log(response)
             response.blob().then((blob) => {
              

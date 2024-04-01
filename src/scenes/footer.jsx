@@ -42,7 +42,7 @@ import { useMediaQuery } from "@material-ui/core";
                 <p className="font-Lexend sm:max-md:text-sm text-white text-xl">or</p>
                 <button onClick={OpenUpwork} className="cursor-pointer px-4 py-2 font-Poppins sm:max-[425px]:text-sm text-white bg-emerald-500">Hire me now</button>
 
-            </div>
+            </div>s
 
 
             <motion.div initial={{left:!isMobile ?'-70%' : '-100%' }} whileInView={{left:0,transition:{duration:1.5, ease:'linear'}}} className="w-[70%] sm:max-md:w-[100%]  py-4 bottom-0 bg-black  absolute">
