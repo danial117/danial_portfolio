@@ -1,24 +1,36 @@
 {
   "files": {
-    "main.css": "/danial-portfolio/static/css/main.90e36b8b.css",
-    "main.js": "/danial-portfolio/static/js/main.1862897e.js",
+    "main.css": "/danial-portfolio/static/css/main.042a6b2d.css",
+    "main.js": "/danial-portfolio/static/js/main.8d038755.js",
     "static/media/award2.png": "/danial-portfolio/static/media/award2.d401ae0cafe1a73f8abc.png",
     "static/media/services5.png": "/danial-portfolio/static/media/services5.0889cbd4e3bc7154e4f3.png",
     "static/media/services1.png": "/danial-portfolio/static/media/services1.1ff851b66f725ab20198.png",
     "static/media/services2.png": "/danial-portfolio/static/media/services2.35d73af3c8e0a5f9b06e.png",
     "static/media/award1.png": "/danial-portfolio/static/media/award1.58657184d94787a9f467.png",
+    "static/media/services3.png": "/danial-portfolio/static/media/services3.f5d11b6c02a3f85fda35.png",
+    "static/media/services4.png": "/danial-portfolio/static/media/services4.b318b3a33f5e8f358489.png",
     "static/media/react.png": "/danial-portfolio/static/media/react.a52d90672208d6dacb75.png",
     "static/media/award3.png": "/danial-portfolio/static/media/award3.b992113d22bd0ee5c456.png",
     "static/media/Intro1.jpeg": "/danial-portfolio/static/media/Intro1.504aa71707fc3653fde8.jpeg",
     "static/media/node.png": "/danial-portfolio/static/media/node.abfaef34ea49d0c7cd3c.png",
     "static/media/bg1.png": "/danial-portfolio/static/media/bg1.d007f34ff5ea636894f9.png",
+    "static/media/7.avif": "/danial-portfolio/static/media/7.4c67cbbc26e2b5ca13ce.avif",
     "static/media/HtmlCSS.webp": "/danial-portfolio/static/media/HtmlCSS.4d97eb7ff48cf5a63bf1.webp",
+    "static/media/icons8-linkedin.svg": "/danial-portfolio/static/media/icons8-linkedin.4cf9dbd4daa6ccb257e4.svg",
+    "static/media/icons8-upwork.svg": "/danial-portfolio/static/media/icons8-upwork.ad7a10128513d4f8ad79.svg",
+    "static/media/slick.svg": "/danial-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/danial-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/danial-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/icons8-facebook.svg": "/danial-portfolio/static/media/icons8-facebook.92c524856110a6aef365.svg",
+    "static/media/slick.woff": "/danial-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/danial-portfolio/index.html",
-    "main.90e36b8b.css.map": "/danial-portfolio/static/css/main.90e36b8b.css.map",
-    "main.1862897e.js.map": "/danial-portfolio/static/js/main.1862897e.js.map"
+    "static/media/icons8-fiverr.svg": "/danial-portfolio/static/media/icons8-fiverr.a36ab875a33254a174e6.svg",
+    "static/media/eyed.svg": "/danial-portfolio/static/media/eyed.7eab4f55d4cdc96d1eb7.svg",
+    "main.042a6b2d.css.map": "/danial-portfolio/static/css/main.042a6b2d.css.map",
+    "main.8d038755.js.map": "/danial-portfolio/static/js/main.8d038755.js.map"
   },
   "entrypoints": [
-    "static/css/main.90e36b8b.css",
-    "static/js/main.1862897e.js"
+    "static/css/main.042a6b2d.css",
+    "static/js/main.8d038755.js"
   ]
 }
